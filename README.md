@@ -39,9 +39,6 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 ## Press Highlights
 None yet. If you wrote or found an article about this project, [add it][contributing] in this section.  :memo:
 
-## Who uses this
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
 ## License
 [KINDLY][license] © [Ionică Bizău][website]–The [LICENSE](/LICENSE) file contains
 a copy of the license.
