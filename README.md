@@ -13,11 +13,21 @@
 <!-- * * * Thanks! * * *                                                    -->
 <!---------------------------------------------------------------------------->
 
+[![octimatch](http://i.imgur.com/eLKWNj0.png)](http://ionicabizau.github.io/OctiMatch)
+
 # OctiMatch [![Donate now][donate-now]][paypal-donations]
 
 A matching game with GitHub's Octicons.
 
-This game is powered by [`match.js`](https://github.com/IonicaBizau/match.js).
+This game is powered by [`match.js`](https://github.com/IonicaBizau/match.js). The goal is to find pairs of same icons by clicking the blocks. Only two blocks can be flipped at the time. If you click the third one, the other two blocks will flip back. The game has three levels:
+
+ - [Easy](http://ionicabizau.github.com/OctiMatch?skill=easy)
+ - [Medium](http://ionicabizau.github.com/OctiMatch?skill=medium)
+ - [Hard](http://ionicabizau.github.com/OctiMatch?skill=hard)
+
+It also has the option to create custom levels using the url parameters (e.g. [`10x9`, using `?x=10&y=9`](http://ionicabizau.github.com/OctiMatch?x=10&y=9)). When all the pairs are found, the game is finished. :sparkles:
+
+[![octimatch](http://i.imgur.com/rA9jvwp.png)](http://ionicabizau.github.io/OctiMatch)
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
