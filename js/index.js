@@ -1,17 +1,36 @@
 (function () {
+
+    var xVal = +(Url.queryString("x")) || 6
+      , yVal = +(Url.queryString("y")) || 5
+      ;
+
+    switch (Url.queryString("skill")) {
+        case "easy":
+            yVal = 2;
+            xVal = 3;
+            break;
+        case "medium":
+            yVal = 4;
+            xVal = 8;
+            break;
+        case "hard":
+            yVal = 7;
+            xVal = 10;
+            break;
+    }
+
     var game = new Match(".game", {
         templateElm: ".templates > div"
       , autoremove: false
       , size: {
-            x: 11
-          , y: 6
+            x: xVal
+          , y: yVal
         }
       , step: {
             x: 100
           , y: 100
         }
     }, OCTICONS);
-
 
     var timeElms = document.getElementsByClassName("time")
       , pairsCountElms = document.getElementsByClassName("pairs-count")
