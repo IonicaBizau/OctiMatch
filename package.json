@@ -1,0 +1,32 @@
+{
+  "name": "octimatch",
+  "version": "1.0.0",
+  "description": "A matching game with GitHub's Octicons.",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/OctiMatch.git"
+  },
+  "keywords": [
+    "octicons",
+    "github",
+    "matching",
+    "game"
+  ],
+  "blah": {
+      "thanks": [
+          "The confetti thingy is created by [Linmiao Xu](http://codepen.io/linrock/pen/Amdhr)"
+      ],
+      "description": "This game is powered by [`match.js`](https://github.com/IonicaBizau/match.js).",
+      "title": "OctiMatch"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/OctiMatch/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/OctiMatch#readme"
+}

@@ -1,0 +1,82 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css");
+
+.game > div {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(44, 62, 80, 0.36);
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.game {
+    text-align: center;
+    position: absolute;
+}
+
+.game > div .front {
+    padding: 29px 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.game > div .back {
+    width: 100%;
+    height: 100%;
+    background-color: #2C3E50;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ecf0f1;
+}
+.you-won-wrapper {
+    background-color: rgba(236, 240, 241, 0.9);
+}
+
+.you-won-wrapper, #world {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.you-won {
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 370px;
+    background-color: rgba(255, 255, 255, 0.93);
+    color: #2c3e50;
+    left: 50%;
+    margin-left: -185px;
+    top: 50%;
+    height: 180px;
+    margin-top: -250px;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.13);
+    border-radius: 50px;
+}
