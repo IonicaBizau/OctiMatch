@@ -1,6 +1,6 @@
 {
   "name": "octimatch",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A matching game with GitHub's Octicons.",
   "main": "js/index.js",
   "scripts": {
@@ -20,7 +20,19 @@
     "thanks": [
       "The confetti thingy is created by [Linmiao Xu](http://codepen.io/linrock/pen/Amdhr)"
     ],
-    "description": "This game is powered by [`match.js`](https://github.com/IonicaBizau/match.js). The goal is to find pairs of same icons by clicking the blocks. Only two blocks can be flipped at the time. If you click the third one, the other two blocks will flip back. The game has three levels:\n\n - [Easy](http://ionicabizau.github.com/OctiMatch?skill=easy)\n - [Medium](http://ionicabizau.github.com/OctiMatch?skill=medium)\n - [Hard](http://ionicabizau.github.com/OctiMatch?skill=hard)\n\nIt also has the option to create custom levels using the url parameters (e.g. [`10x9`, using `?x=10&y=9`](http://ionicabizau.github.com/OctiMatch?x=10&y=9)). When all the pairs are found, the game is finished. :sparkles:",
+    "description": [
+      "This game is powered by [`match.js`](https://github.com/IonicaBizau/match.js). The goal is to find pairs of same icons by clicking the blocks. Only two blocks can be flipped at the time. If you click the third one, the other two blocks will flip back. The game has three levels:",
+      {
+        "ul": [
+          "[Easy](http://ionicabizau.github.com/OctiMatch?skill=easy)",
+          "[Medium](http://ionicabizau.github.com/OctiMatch?skill=medium)",
+          "[Hard](http://ionicabizau.github.com/OctiMatch?skill=hard)"
+        ]
+      },
+      {
+        "p": "It also has the option to create custom levels using the url parameters (e.g. [`10x9`, using `?x=10&y=9`](http://ionicabizau.github.com/OctiMatch?x=10&y=9)). When all the pairs are found, the game is finished. :sparkles:"
+      }
+    ],
     "title": "OctiMatch",
     "ex_img": "http://i.imgur.com/rA9jvwp.png",
     "h_img": "http://i.imgur.com/eLKWNj0.png",
