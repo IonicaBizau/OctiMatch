@@ -44,5 +44,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/OctiMatch/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/OctiMatch#readme"
+  "homepage": "https://github.com/IonicaBizau/OctiMatch#readme",
+  "dependencies": {
+    "match": "^1.0.1"
+  }
 }
