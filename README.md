@@ -13,6 +13,7 @@ This game is powered by [`match.js`](https://github.com/IonicaBizau/match.js). T
  - [Medium](http://ionicabizau.github.com/OctiMatch?skill=medium)
  - [Hard](http://ionicabizau.github.com/OctiMatch?skill=hard)
 
+
 It also has the option to create custom levels using the url parameters (e.g. [`10x9`, using `?x=10&y=9`](http://ionicabizau.github.com/OctiMatch?x=10&y=9)). When all the pairs are found, the game is finished. :sparkles:
 
 
